@@ -1,0 +1,100 @@
+
+div {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+}
+
+p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#flightNumber {
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+    box-sizing: border-box;
+    text-align: center; 
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+/* עיצוב טבלת הטיימר */
+#time {
+    padding:20px;
+    text-align: center;
+    color: red;
+
+}
+
+
+#theadTable {
+    border: none;
+}
+
+#thStyle {
+    background-color: #0d6efd;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 7px;
+    border: none !important;
+   
+}
+
+/* עיצוב טבלת סטטוס מטוס */
+#status {
+    box-sizing: border-box;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+}
+
+#status[Landing] {
+    color: #0d6efd;
+}
+
+/* עיצוב טבלת ארצות */
+#where {
+    box-sizing: border-box;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+    word-break: break-all;
+    
+}
+
+/* עיצוב טבלת isAvilable */
+#isAvilable {
+    box-sizing: border-box;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center; 
+    color: red;
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+
+
+#waitLanding {
+    font-size: 20px;
+}
+
+#waitDeparture {
+    font-size: 20px;
+}
